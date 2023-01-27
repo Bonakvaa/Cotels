@@ -40,7 +40,7 @@
     color:#192252;
 }
 
-.button_Get_started {
+.get__started {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -51,9 +51,10 @@
     background-color: #0E1734;
     border-radius: 4px;
     transition: background-color 300ms ease-in-out;
+    border: 0px;
 }
 
-.button_Get_started:hover {
+.get__started:hover {
     background: #643a79;
     transition: background-color 300ms ease-in-out;
 }
@@ -118,12 +119,12 @@ section.description .description__button:hover {
 .description__right .description__img:nth-child(2) {
     margin-top: 161px;
 }
-.block {
+.cozy__block {
     display: flex;
     align-items: center;
     height: 736px;
 }
-.block__right .block__title {
+.cozy__right .cozy__title {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -132,11 +133,11 @@ section.description .description__button:hover {
     letter-spacing: -0.01em;
     color: #192252;
 }  
-.block__right {
+.cozy__right {
     width: 690px;
     margin-left: 126px;   
 }
-.block__text1 {
+.cozy__text1 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -146,7 +147,7 @@ section.description .description__button:hover {
     margin-top: 24px;  
     width: 584px;
 }
-.block__text2 {
+.cozy__text2 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -156,7 +157,7 @@ section.description .description__button:hover {
     margin-top: 16px;
     width: 584px;
 }
-.button1 {
+.learn__more {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -170,7 +171,7 @@ section.description .description__button:hover {
     transition: background-color 300ms ease-in-out;
     border: 0;
 }
-.button1:hover {
+.learn__more:hover {
     background: #643a79;
     transition: background-color 300ms ease-in-out;
 }
@@ -201,13 +202,13 @@ section.description .description__button:hover {
     width: 584px;
     margin-right: 126px; 
 }
-.food {
+.organic__food {
     display: flex;
     align-items: center;
     height: 384px;
     margin-top: 32px;
 }
-.Organic__title {
+.organic__title {
     margin-left: 126px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -217,7 +218,7 @@ section.description .description__button:hover {
     letter-spacing: -0.01em;  
     color: #192252;   
 }
-.Organic__text {
+.organic__paragraph {
     margin-left: 126px;
     margin-top: 24px;
     font-family: 'Inter';
@@ -228,7 +229,7 @@ section.description .description__button:hover {
     color: #848FAC; 
     width: 584px;  
 }
-.Roomss {
+.room__paragraph{
     display: flex;
     justify-content: flex-start;
     height:303px ;
@@ -256,7 +257,7 @@ section.description .description__button:hover {
     margin-left: 306px;
     margin-top: 24px;
 }
-.button2 {
+.explore__button {
     font-family: 'Inter';
     position: absolute; 
     background: #0E1734;
@@ -281,7 +282,7 @@ section.description .description__button:hover {
     justify-content: flex-start;
     height: 304px;
 }
-.Single {
+.single__room {
     margin-top:32px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -290,7 +291,7 @@ section.description .description__button:hover {
     line-height: 150%; 
     width: 158px;
 }
-.small__paragraph1 {
+.small__paragraph__1 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -300,7 +301,7 @@ section.description .description__button:hover {
     width: 384px;
     margin-top: 16px;
 }
-.Learn1 {
+.arrow__line {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -310,10 +311,10 @@ section.description .description__button:hover {
     margin-top: 32px;
 }
 
-.text1 {
+.text__for__pictures__1 {
     width: 408px;
 }
-.Double__Room {
+.double__room {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -324,10 +325,10 @@ section.description .description__button:hover {
     margin-top:32px;
     width: 171px;
 }
-.text2 {
+.text__for__pictures__2 {
     width: 414px;
 }
-.smal__paragraph2 {
+.smal__paragraph__2 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -337,24 +338,15 @@ section.description .description__button:hover {
     margin-top: 16px;
     width: 384px;
 }
-.Learn2 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
-    color: #424F7B;
-    margin-top: 32px;
-}
 .stroke__img {
     position:relative;
     left: 110.67px;
     top:-22px
 }
-.text3 {
+.text__for__pictures__3 {
     width: 384px;
 }
-.Cootage {
+.cootage {
     margin-top: 32px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -365,7 +357,7 @@ section.description .description__button:hover {
     color: #000000;
     width: 105px;
 }
-.smal__paragraph3 {
+.smal__paragraph__3 {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -410,7 +402,7 @@ section.description .description__button:hover {
     color: #848FAC;
     width: 384px;
 }
-.Contact {
+.contact {
     margin-top: 32px;
     padding: 16px 32px;
     background: #0E1734;
@@ -424,11 +416,11 @@ section.description .description__button:hover {
     border: 0;
     transition: background-color 300ms ease-in-out;
 }
-.Contact:hover {
+.contact:hover {
     background: #643a79;
     transition: background-color 300ms ease-in-out;
 }
-.Explore {
+.explore {
     position: relative;
     left: 172px;
     top: -32px;
