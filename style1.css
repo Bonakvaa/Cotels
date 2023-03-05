@@ -119,12 +119,12 @@ section.description .description__button:hover {
 .description__right .description__img:nth-child(2) {
     margin-top: 161px;
 }
-.cozy__block {
+.description-hotel {
     display: flex;
     align-items: center;
     height: 736px;
 }
-.cozy__right .cozy__title {
+.description-hotel__title {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -133,11 +133,11 @@ section.description .description__button:hover {
     letter-spacing: -0.01em;
     color: #192252;
 }  
-.cozy__right {
+.description-hotel__right {
     width: 690px;
     margin-left: 126px;   
 }
-.cozy__text1 {
+.description-hotel__paragraph {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -147,7 +147,7 @@ section.description .description__button:hover {
     margin-top: 24px;  
     width: 584px;
 }
-.cozy__text2 {
+.description-hotel__subparagraph {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -157,7 +157,7 @@ section.description .description__button:hover {
     margin-top: 16px;
     width: 584px;
 }
-.learn__more {
+.description-hotel__button {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -171,17 +171,17 @@ section.description .description__button:hover {
     transition: background-color 300ms ease-in-out;
     border: 0;
 }
-.learn__more:hover {
+.description-hotel__button:hover {
     background: #643a79;
     transition: background-color 300ms ease-in-out;
 }
-.center {
+.description-event {
     display: flex;
     align-items: center;
     height: 384px;
     margin-top: 80px;
 }
-.center__title {
+.description-event__title {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -191,7 +191,7 @@ section.description .description__button:hover {
     color: #192252; 
     width: 302px;  
 }
-.center__text1 {
+.description-event__paragraph {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -202,13 +202,13 @@ section.description .description__button:hover {
     width: 584px;
     margin-right: 126px; 
 }
-.organic__food {
+.description-food__left {
     display: flex;
     align-items: center;
     height: 384px;
     margin-top: 32px;
 }
-.organic__title {
+.description-food__title {
     margin-left: 126px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -218,7 +218,7 @@ section.description .description__button:hover {
     letter-spacing: -0.01em;  
     color: #192252;   
 }
-.organic__paragraph {
+.description-food__paragraph {
     margin-left: 126px;
     margin-top: 24px;
     font-family: 'Inter';
@@ -229,149 +229,87 @@ section.description .description__button:hover {
     color: #848FAC; 
     width: 584px;  
 }
-.room__paragraph{
-    display: flex;
-    justify-content: flex-start;
-    height:303px ;
+.description-rooms{
     margin-top: 160px;
 }
-.contents {
+
+.description-rooms__upper {
+    text-align: center;
+}
+.description-rooms__title{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
-    line-height: 150%;
-    letter-spacing: -0.01em;  
     color: #192252;
-    margin-left: 377px;
 }
-.contents__text {
+.description-rooms__title--24px {
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 32px;
+}
+.description-rooms__paragraph {
     width: 588px;
+    margin: 24px auto 0px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 150%;
+    line-height: 27px;
     color: #848FAC;
-    text-align: center;
-    margin-left: 306px;
-    margin-top: 24px;
 }
-.explore__button {
+.description-rooms__button {
     font-family: 'Inter';
-    position: absolute; 
     background: #0E1734;
     border-radius: 4px;
     color: #fff;
     padding: 16px 32px;
     border: 0;
-    margin-left: 518px;
     margin-top: 32px;
     transition: background-color 300ms ease-in-out;
 }
-.button2:hover {
-    background: #643a79;
-    transition: background-color 300ms ease-in-out;    
-}
-.foto .room__img:nth-child(2) {
-    margin-left: 24px;
-    margin-right: 24px;
-}
-.paragraphs {
+.description-rooms__down {
+    margin-top: 88px;
     display: flex;
-    justify-content: flex-start;
-    height: 304px;
+    gap: 24px;
 }
-.single__room {
-    margin-top:32px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 150%; 
-    width: 158px;
-}
-.small__paragraph__1 {
+.description-rooms__text {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
     color: #848FAC;
-    width: 384px;
     margin-top: 16px;
 }
-.arrow__line {
+.description-rooms__link{
+    display: block;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
     color: #424F7B;
+    text-decoration:none;
     margin-top: 32px;
 }
 
-.text__for__pictures__1 {
-    width: 408px;
+.link__text, .link__img {
+    display: inline;
+
 }
-.double__room {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 150%;
-    text-align: center;
-    color: #000000;
-    margin-top:32px;
-    width: 171px;
+
+.link__text {
+    margin-right: 13px;
 }
-.text__for__pictures__2 {
-    width: 414px;
-}
-.smal__paragraph__2 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;   
-    color: #848FAC;
-    margin-top: 16px;
-    width: 384px;
-}
-.stroke__img {
-    position:relative;
-    left: 110.67px;
-    top:-22px
-}
-.text__for__pictures__3 {
-    width: 384px;
-}
-.cootage {
-    margin-top: 32px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 150%;
-    text-align: center;
-    color: #000000;
-    width: 105px;
-}
-.smal__paragraph__3 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%; 
-    color: #848FAC;
-    margin-top: 16px;
-}
-.block__room {
+
+.buy-room {
     display: flex;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
+    justify-content: space-between;
     height: 596px;
 }
-.text__start {
+.buy-room__title {
     margin-top: 162px;
     font-family: 'Inter';
     font-style: normal;
@@ -380,7 +318,7 @@ section.description .description__button:hover {
     line-height: 150%;
     color: #424F7B;
 }
-.text__room {
+.buy-room__question {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -392,7 +330,7 @@ section.description .description__button:hover {
     margin-top: 12px;
     width: 407px;
 }
-.text__paragraph {
+.buy-room__paragraph {
     margin-top: 24px;
     font-family: 'Inter';
     font-style: normal;
@@ -402,8 +340,8 @@ section.description .description__button:hover {
     color: #848FAC;
     width: 384px;
 }
-.contact {
-    margin-top: 32px;
+.buy-room__button{
+    margin: 32px 24px 0 0;
     padding: 16px 32px;
     background: #0E1734;
     border-radius: 4px;
@@ -416,14 +354,11 @@ section.description .description__button:hover {
     border: 0;
     transition: background-color 300ms ease-in-out;
 }
-.contact:hover {
+.buy-room__button:hover {
     background: #643a79;
     transition: background-color 300ms ease-in-out;
 }
-.explore {
-    position: relative;
-    left: 172px;
-    top: -32px;
+.buy-room__link {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -431,13 +366,12 @@ section.description .description__button:hover {
     line-height: 19px;   
     color: #0E1734;
 }
-.box {
+.dropdown {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    height: 596px;
+    justify-content: flex-start; 
 }
-.tables {
+.dropdown__item {
     width: 588px;
     height: 100px;
     left: 732px;
@@ -445,56 +379,39 @@ section.description .description__button:hover {
     filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.07));
     background: #FFFFFF;
     border-radius: 4px;   
-    margin-left: 207px;
+    /* margin-left: 207px; */
     margin-top: 80px;
 }
-.tables__text1 {
+.dropdown__title {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 150%;
     text-align: center;
-    margin-right: 213px;
-    margin-left: 36px;
-    margin-top: 32px;
     color: #424F7B;
     width: 339px;
+    margin: 32px 36px 0px ;
 }
-.box__img {
+.dropdown__img {
     position: relative;
     left: 512px;
     top: -35px;
 }
-.box__img2 {
+.dropdown__img2 {
     position: relative;
     left:479px ;
     top: -34px;
 }
-.tables2 {
-    width: 588px;
-    height: 188px;
-    left: 732px;
-    top: 80px;
-    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.07));
-    background: #FFFFFF;
-    border-radius: 4px;   
+.dropdown__item--188px {
+    height: 188px; 
     margin-top: 24px;
-    margin-left: 207px;
 }
-.tables__text2 {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 150%;
-    text-align: center;
-    color: #424F7B;
+.dropdown__title--357px {
     width:357px ;
-    margin-left: 36px;
-    margin-top: 38px;
+    margin: 38px 36px 0px;
 }
-.textik {
+.dropdown__text{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -504,50 +421,33 @@ section.description .description__button:hover {
     margin-left:36px;
     width: 516px;
 }
-.textik {
+.dropdown__text {
     position: relative;
     top: -16px;
 }
-.box__img3 {
+.dropdown__img3 {
     position: relative;
     left: 512px;
     top: -35px;
 }
-.box__img4 {
+.dropdown__img4 {
     position: relative;
     left:479px ;
     top: -35px;
 }
-.tables3 {
-    width: 588px;
-    height: 100px;
-    left: 732px;
-    top: 80px;
-    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.07));
-    background: #FFFFFF;
-    border-radius: 4px; 
-    margin-left: 207px;
+.dropdown__title--24px {
     margin-top: 24px;
 }
-.tables__text3 {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 150%;
-    text-align: center;
-    color: #424F7B;
-    margin-top: 32px;
+.dropdown__title--230px {
     width: 230px;
-    margin-left: 36px;
+    margin:32px 36px 0px;
 }
-.Customers {
+.сustomer-feedback {
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
     height: 627px;
 }
-.Happy {
+.сustomer-feedback__title {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -555,16 +455,14 @@ section.description .description__button:hover {
     line-height: 150%;
     letter-spacing: -0.01em; 
     color: #192252;
-    margin-top: 80px;
-    margin-left: 285px;
+    margin: 80px auto 0;
 }
-.photo__img {
+.сustomer-feedback__img {
     width: 120px;
     height: 120px;
-    margin-left: 540px;
-    margin-top: 62px;
+    margin: 62px 540px 0px;
 }
-.Great {
+.сustomer-feedback__paragraph {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -573,18 +471,16 @@ section.description .description__button:hover {
     text-align: center;  
     color: #848FAC;
     width:793.06px;
-    margin-left: 204px;
-    margin-top: 44px;
+    margin: 44px 204px 0px;
 }
-.Kirana {
+.сustomer-feedback__name {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 150%;
     color: #192252;
-    margin-top: 40px;
-    margin-left: 527px;
+    margin:40px 527px 0px;
 }
 .js {
     background-color: #FFFFFF;
@@ -597,22 +493,21 @@ svg {
     height: 100%;
     visibility: hidden;
 }
-.wrapper-1 {
+.wrapper-basement {
     background: #0B265A;
     
 }
 .basement {
     display: flex;
-
     max-width: 1208px;
     margin: 0 auto;
     height: 444px;
     
 }
-.Cootels {
+.basement-left {
     width:585px ;
 }
-.Git {
+.basement-left__title {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -622,7 +517,7 @@ svg {
     color: #FFFFFF;
     margin-top: 120px
 }
-.abzath {
+.basement-left__text {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -632,28 +527,17 @@ svg {
     margin-top: 13px;
     width: 186px;
 }
-.Twitter__photo {
+.basement-left__twitter{
     margin-top: 39px;
 }
-.Insta1 {
-    margin-top: 36px;
-    margin-left: 24px;
+.basement-left__instagram {
+    margin: 36px 24px 0px;
 }
-.Insta2 {
+.basement-left___facebook{
     position: relative;
-    right:28.90px;
-    top:17.75px
+    top: 17px;
 }
-.Insta3 {
-    position: relative;
-    right: 35px;
-    top:10px
-}
-.Face {
-    position: relative;
-    top: 16px;
-}
-.Roms1 {
+.basement-right__title {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -662,9 +546,9 @@ svg {
     letter-spacing: 0.01em;
     color: #FFFFFF;
     margin-top: 120px;
-    height: 19px;
+
 }
-.Singles {
+.basement-right__link {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -672,106 +556,20 @@ svg {
     line-height: 19px;
     margin-top: 24px;
     color: #D9DBDE;
+    display: block;
 }
 html {
     scroll-behavior: smooth;
 }
-.Doubles {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;  
-    color: #D9DBDE;
-    margin-top: 24px;
+.basement-right__title--100px {
+    margin:120px 0px 0px 100px;
 }
-.Cabinn {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;  
-    color: #D9DBDE;
-    margin-top: 24px;
+.basement-right__link--100px {
+    margin:24px 0px 0px 100px;
 }
-.Custom-Room {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #D9DBDE;
-    margin-top: 24px;
+.basement-right__title--141px {
+    margin: 120px 0px 0px 141px;
 }
-.Reservationn {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.01em;
-    margin-top: 120px;
-    color: #FFFFFF;
-    margin-left: 100px;
-}
-.See-the-Steps {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    margin-top:24px ;
-    color: #D9DBDE;
-    margin-left: 100px;
-}
-.Best-Time {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    margin-top:24px ;
-    color: #D9DBDE;
-    margin-left: 100px;   
-}
-.Contactc {
-    margin-top: 120px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.01em;   
-    color: #FFFFFF;
-    margin-left: 141px;
-}
-.Our-Number {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    margin-top: 24px;
-    color: #D9DBDE;
-    margin-left: 141px;
-}
-.Our-Email {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    margin-top: 24px;
-    color: #D9DBDE;
-    margin-left: 141px;
-}
-.Our-Location {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    margin-top: 24px;
-    color: #D9DBDE;
-    margin-left: 141px;    
+.basement-right__link--141px {
+    margin: 24px 0px 0px 141px;
 }
