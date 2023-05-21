@@ -232,7 +232,9 @@ section.description .description__button:hover {
 .description-rooms{
     margin-top: 160px;
 }
-
+.description-rooms__item {
+    width: 384px;
+}
 .description-rooms__upper {
     text-align: center;
 }
@@ -271,7 +273,7 @@ section.description .description__button:hover {
 .description-rooms__down {
     margin-top: 88px;
     display: flex;
-    gap: 24px;
+    justify-content: space-between;
 }
 .description-rooms__text {
     font-family: 'Inter';
@@ -305,12 +307,12 @@ section.description .description__button:hover {
 
 .buy-room {
     display: flex;
-    /* justify-content: flex-start; */
     justify-content: space-between;
-    height: 596px;
+    align-items: center;
+    padding: 80px 0px;
+    margin-top: 80px;
 }
 .buy-room__title {
-    margin-top: 162px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -370,6 +372,7 @@ section.description .description__button:hover {
     display: flex;
     flex-direction: column;
     justify-content: flex-start; 
+    align-items: center;
 }
 .dropdown__item {
     width: 588px;
@@ -380,7 +383,7 @@ section.description .description__button:hover {
     background: #FFFFFF;
     border-radius: 4px;   
     /* margin-left: 207px; */
-    margin-top: 80px;
+
 }
 .dropdown__title {
     font-family: 'Montserrat';
@@ -388,9 +391,7 @@ section.description .description__button:hover {
     font-weight: 600;
     font-size: 24px;
     line-height: 150%;
-    text-align: center;
     color: #424F7B;
-    width: 339px;
     margin: 32px 36px 0px ;
 }
 .dropdown__img {
@@ -493,19 +494,18 @@ svg {
     height: 100%;
     visibility: hidden;
 }
-.wrapper-basement {
-    background: #0B265A;
-    
-}
 .basement {
     display: flex;
-    max-width: 1208px;
-    margin: 0 auto;
-    height: 444px;
-    
+    padding: 120px;
+    background: #0B265A; 
 }
 .basement-left {
-    width:585px ;
+    width:50%;
+}
+.basement-right {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
 }
 .basement-left__title {
     font-family: 'Montserrat';
@@ -515,7 +515,6 @@ svg {
     line-height: 39px; 
     letter-spacing: -0.01em; 
     color: #FFFFFF;
-    margin-top: 120px
 }
 .basement-left__text {
     font-family: 'Inter';
@@ -545,8 +544,6 @@ svg {
     line-height: 19px;
     letter-spacing: 0.01em;
     color: #FFFFFF;
-    margin-top: 120px;
-
 }
 .basement-right__link {
     font-family: 'Inter';
@@ -561,15 +558,4 @@ svg {
 html {
     scroll-behavior: smooth;
 }
-.basement-right__title--100px {
-    margin:120px 0px 0px 100px;
-}
-.basement-right__link--100px {
-    margin:24px 0px 0px 100px;
-}
-.basement-right__title--141px {
-    margin: 120px 0px 0px 141px;
-}
-.basement-right__link--141px {
-    margin: 24px 0px 0px 141px;
-}
+
