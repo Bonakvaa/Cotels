@@ -1,13 +1,15 @@
 @import"reset.css";
 .wrapper{
-    max-width:1208px;
+    width:1208px;
     margin: 0 auto;
 }
+
+
+
 .header {
     display: flex;
     justify-content: space-between;
 }
-
 .nav {
     display: flex;
     gap: 32px;
@@ -25,7 +27,6 @@
     line-height: 39px;
     color: #192252;
 }
-
 .nav_link {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -66,7 +67,7 @@
 .description {
     display: flex;
     align-items: center;
-    height: 845px;
+    /* height: 845px; */
 }
 .description__left {
      width: 587px;
@@ -496,6 +497,7 @@ svg {
 }
 .basement {
     display: flex;
+    width: 100%;
     padding: 120px;
     background: #0B265A; 
 }
@@ -557,5 +559,21 @@ svg {
 }
 html {
     scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 1208px) {
+    .wrapper{
+        width:900px;
+    }
+    .description {
+        flex-direction: column;
+    }
+    .description-rooms__down {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+        
+    
 }
 
